@@ -1,11 +1,10 @@
-
 class Form {
   constructor() {
     this.html = `
       <div class="form">
         <form id="contact" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScDFAccXU0g823Jbr2o_1FurnZDP9UmRP44odstZFw6QINq8w/formResponse" method="POST">
           <div class="title">Welcome</div>
-          <div class="subtitle">Find out what's in stock</div>
+          <div class="subtitle">Fill out the form to inquire about our custom wines</div>
           <div class="input-container ic1">
             <input id="firstname" class="input" type="text" placeholder=" " name='entry.2005620554' />
             <div class="cut"></div>
@@ -28,4 +27,3 @@ class Form {
 };
 
 export default Form
-
